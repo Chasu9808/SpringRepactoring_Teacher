@@ -1,0 +1,88 @@
+/* 전체 컨테이너 설정 */
+/* 전체 컨테이너 설정 */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* 이미지 및 설명을 담는 섹션 */
+.content-section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/* 이미지 업로드 섹션 */
+.image-upload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+
+.image-upload img {
+    width: 100%;
+    max-width: 500px;
+    height: 500px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+
+.image-upload input[type="file"] {
+    margin-top: 10px;
+    padding: 8px;
+    font-size: 1rem;
+}
+
+/* 설명 표시 섹션 */
+.result-display {
+    width: 50%;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.result-display h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+#predictedLabel,
+#description {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* 유튜브 비디오 섹션 */
+.video-container {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.video-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+#videoFrame {
+    width: 100%;
+    max-width: 800px;
+    height: 400px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}

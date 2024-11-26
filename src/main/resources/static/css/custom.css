@@ -1,0 +1,184 @@
+/* CSS for adjusting logo size in the header */
+
+/* 로고 이미지 크기 조정 */
+.logo-img {
+    max-width: 150px; /* 로고 최대 너비 조정 */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Header and alignment adjustments */
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.util-box a {
+    margin-left: 15px;
+    font-size: 1rem;
+    color: #000;
+    text-decoration: none;
+}
+
+.util-box a:hover {
+    color: #007bff;
+}
+
+/* Main Slide 이미지 크기 및 정렬 */
+#main-slide .carousel-inner img {
+    max-height: 400px; /* 높이 조정 */
+    object-fit: cover; /* 슬라이드 이미지 자르지 않고 유지 */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* 퀵 메뉴 아이콘 크기 조정 및 간격 설정 */
+.quick-icon {
+    width: 60px;
+    height: auto;
+    margin-bottom: 10px;
+    transition: transform 0.2s ease-in-out; /* 아이콘 호버 효과 추가 */
+}
+
+.quick-icon:hover {
+    transform: scale(1.1); /* 호버 시 약간 확대 */
+}
+
+/* 검색 아이콘 크기 */
+.search-icon {
+    width: 24px;
+    height: 24px;
+}
+
+/* 리뷰 아이콘 크기 및 정렬 */
+.review-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 그림자 효과 추가 */
+}
+
+/* 툴 카드를 위한 정렬 및 스타일 */
+.card-body {
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f7f7f7; /* 카드 배경색 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 카드 그림자 효과 */
+}
+
+.card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* 공구 카드 스타일 */
+#tool-display .card {
+    flex: 1;
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+#tool-display .card:hover {
+    transform: translateY(-5px); /* 호버 시 살짝 위로 이동 */
+}
+
+#tool-display .card-img-top {
+    max-height: 200px; /* 이미지 높이 조정 */
+    object-fit: contain; /* 이미지를 자르지 않고 전체를 표시 */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* 슬라이드 컨트롤 스타일 */
+#toolCarousel .carousel-control-prev-icon,
+#toolCarousel .carousel-control-next-icon {
+    filter: invert(100%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+/* 슬라이드 섹션 배경 및 정렬 */
+#tool-display {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f9f9f9; /* 슬라이드 배경색 */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 퀵 메뉴 텍스트 스타일 */
+#Quick h2 {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#Quick h2 span {
+    color: #666; /* 보조 텍스트 색상 */
+}
+
+#Quick form .form-control {
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: none;
+}
+
+#Quick form button {
+    border: none;
+    background: transparent;
+    padding: 5px;
+}
+
+/* 리뷰 리스트 스타일 */
+.list-group-item {
+    border: none;
+    padding: 15px;
+    background-color: #fafafa;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* 가벼운 그림자 효과 */
+    border-radius: 8px;
+}
+
+.list-group-item h5 {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.list-group-item p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* 푸터 스타일 */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #aaa;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+}
